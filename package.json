@@ -1,0 +1,37 @@
+{
+  "name": "htmlclean-cli",
+  "version": "0.1.0",
+  "title": "htmlclean-cli",
+  "description": "Simple and safety HTML/SVG cleaner to minify without changing its structure.",
+  "keywords": [
+    "html",
+    "svg",
+    "clean",
+    "whitespace",
+    "linebreak",
+    "comment",
+    "minify",
+    "compress",
+    "lightweight"
+  ],
+  "bin" : { "htmlclean" : "./htmlclean-cli.js" },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "htmlclean": "^2.7.10",
+    "commander": "^2.9.0",
+    "glob": "^7.1.1"
+  },
+  "homepage": "https://github.com/anseki/htmlclean-cli",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anseki/htmlclean-cli.git"
+  },
+  "bugs": "https://github.com/anseki/htmlclean-cli/issues",
+  "license": "MIT",
+  "author": {
+    "name": "anseki",
+    "url": "https://github.com/anseki"
+  }
+}
