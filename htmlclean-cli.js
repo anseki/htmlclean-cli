@@ -208,7 +208,7 @@ program
   .option('-e, --encoding <encoding>', 'encoding method [utf8]', 'utf8')
   .option('-v, --verbose', 'output I/O information to STDERR')
   .on('--help', function() {
-    console.log(fs.readFileSync(pathUtil.join(__dirname, '/help.txt'), {encoding: 'utf8'}) +
+    console.log(fs.readFileSync(pathUtil.join(__dirname, 'help.txt'), {encoding: 'utf8'}) +
       (process.platform !== 'win32' ? '\n' : ''));
   });
 program.parse(process.argv);
