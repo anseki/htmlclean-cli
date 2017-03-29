@@ -17,7 +17,7 @@ var
   glob = require('glob'),
   pathUtil = require('path'),
 
-  packageInfo = require('../package.json'),
+  packageInfo = require('./package'),
   options = {protect: [], unprotect: []},
   count = 0,
   // cache input contents and output fd etc.
