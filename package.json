@@ -1,6 +1,6 @@
 {
   "name": "htmlclean-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "htmlclean-cli",
   "description": "Simple and safety HTML/SVG cleaner to minify without changing its structure.",
   "keywords": [
