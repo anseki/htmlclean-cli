@@ -189,8 +189,8 @@ htmlclean \
 
 ## Note
 
-On Windows XP, 2000 + Node v11-, the redirecting doesn't work, the piping works.  
-Use:
+On Windows XP, 2000 + Node v0.11-, the redirecting doesn't work, the piping works.  
+Therefore, use this:
 
 ```shell
 type file.html | htmlclean

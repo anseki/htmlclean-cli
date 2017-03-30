@@ -239,9 +239,7 @@ if (program.args.length) {
   });
 })();
 
-/* jshint eqnull:true */
 if (program.root != null) {
-/* jshint eqnull:false */
   if (fs.existsSync(program.root) && fs.statSync(program.root).isDirectory()) {
     program.root = fs.realpathSync(program.root);
   } else {
