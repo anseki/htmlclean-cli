@@ -57,7 +57,7 @@ function getInContent(path) { // path was normalized
         fs.openSync('/dev/tty', 'rs') : stdin.fd,
       bufSize = stdin.isTTY ? DEFAULT_BUF_SIZE :
         (fs.fstatSync(fd).size || DEFAULT_BUF_SIZE),
-      buffer = new Buffer(bufSize),
+      buffer = Buffer.allocUnsafe && Buffer.alloc ? Buffer.alloc(bufSize) : new Buffer(bufSize),
       rsize, input = '';
     while (true) {
       rsize = 0;
