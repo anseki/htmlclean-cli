@@ -19,7 +19,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "htmlclean": "^3.0.1",
+    "htmlclean": "^3.0.2",
     "commander": "^2.9.0",
     "glob": "^7.1.1"
   },
