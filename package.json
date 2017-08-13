@@ -1,6 +1,6 @@
 {
   "name": "htmlclean-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "title": "htmlclean-cli",
   "description": "Simple and safety HTML/SVG cleaner to minify without changing its structure.",
   "keywords": [
@@ -19,9 +19,9 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "htmlclean": "^3.0.2",
-    "commander": "^2.9.0",
-    "glob": "^7.1.1"
+    "htmlclean": "^3.0.3",
+    "commander": "^2.11.0",
+    "glob": "^7.1.2"
   },
   "homepage": "https://github.com/anseki/htmlclean-cli",
   "repository": {
