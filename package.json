@@ -24,8 +24,8 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "htmlclean": "^3.0.5",
-    "commander": "^2.11.0",
+    "htmlclean": "^3.0.6",
+    "commander": "^2.14.1",
     "glob": "^7.1.2"
   },
   "homepage": "https://github.com/anseki/htmlclean-cli",
