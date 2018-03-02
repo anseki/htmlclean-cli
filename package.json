@@ -17,8 +17,7 @@
   "bin" : { "htmlclean" : "./htmlclean-cli.js" },
   "files": [
     "htmlclean-cli.js",
-    "help.txt",
-    "LICENSE-MIT"
+    "help.txt"
   ],
   "engines": {
     "node": ">= 0.8.0"
