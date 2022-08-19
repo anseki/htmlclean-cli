@@ -1,6 +1,6 @@
 # htmlclean-cli
 
-[![npm](https://img.shields.io/npm/v/htmlclean-cli.svg)](https://www.npmjs.com/package/htmlclean-cli) [![GitHub issues](https://img.shields.io/github/issues/anseki/htmlclean-cli.svg)](https://github.com/anseki/htmlclean-cli/issues) [![David](https://img.shields.io/david/anseki/htmlclean-cli.svg)](package.json) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE-MIT)
+[![npm](https://img.shields.io/npm/v/htmlclean-cli.svg)](https://www.npmjs.com/package/htmlclean-cli) [![GitHub issues](https://img.shields.io/github/issues/anseki/htmlclean-cli.svg)](https://github.com/anseki/htmlclean-cli/issues) [![David](https://img.shields.io/david/anseki/htmlclean-cli.svg)](package.json) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Command Line Tool - Simple and safety HTML/SVG cleaner to minify without changing its structure.  
 This is CLI for [htmlclean](https://github.com/anseki/htmlclean).
